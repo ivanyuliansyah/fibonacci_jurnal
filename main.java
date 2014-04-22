@@ -1,4 +1,3 @@
-
 import javax.swing.*;
 import java.util.Scanner;
 public class Fibonaci {
@@ -10,8 +9,8 @@ public class Fibonaci {
 	Scanner scan=new Scanner(System.in);
         System.out.println("input :");
         int x=scan.nextInt(); 
-	int a=0;
-	int b=1;
+	int a=1;
+	int b=0;
 	for (int i=1; i<=x; i++){
 		System.out.println("fibonaci :"+a);
 			a=a+b;
