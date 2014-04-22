@@ -12,9 +12,10 @@ public class Fibonaci {
 	int a=1;
 	int b=0;
 	for (int i=1; i<=x; i++){
-		System.out.println("fibonaci :"+a);
+			jumlah=jumlah+a;
 			a=a+b;
 			b=a-b;
+			System.out.println("fibonaci :"+a);
 			}
 			}
 }
